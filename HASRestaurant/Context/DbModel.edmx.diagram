@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a908c17162334aa182991bf8a48a5868" Name="Diagram1">
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Account" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Cart" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Category" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Contact" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Order" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.OrderDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.Reservation" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRN292_HAS_RestaurantModel.sysdiagram" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_Cart_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_Order_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_Reservation_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_Cart_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="PRN292_HAS_RestaurantModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
